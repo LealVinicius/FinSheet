@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PagInicialNega">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PagInicialPositiva">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30%"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="185dp"
+            tools:layout_editor_absoluteY="478dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10%"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="536dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20%"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="504dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40%"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="449dp" />
+
+        <ScrollView
+            android:layout_width="108dp"
+            android:layout_height="107dp"
+            android:background="#BF4CAF50"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="284dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="415dp"
+            android:layout_height="117dp"
+            android:background="#B4C60E00"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="66dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-550,00"
+            android:textColor="#FF9999"
+            android:textColorHint="#000000"
+            tools:layout_editor_absoluteX="239dp"
+            tools:layout_editor_absoluteY="251dp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500,00"
+            android:textColor="#4CAF50"
+            android:textColorHint="#000000"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="265dp"
+        android:layout_height="69dp"
+        android:background="#FF9999"
+        android:ellipsize="middle"
+        android:text="ADICIONAR VALOR"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30%"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10%"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20%"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40%"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gastos por categoria"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pets"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="outros"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aluguel"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <ScrollView
+        android:layout_width="121dp"
+        android:layout_height="18dp"
+        android:background="#ADFF9999"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="505dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="212dp"
+        android:layout_height="18dp"
+        android:background="#ADFF9999"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="449dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="53dp"
+        android:layout_height="18dp"
+        android:background="#B2FF9999"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="536dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="195dp"
+        android:layout_height="19dp"
+        android:background="#B7FF9999"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="478dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="transporte"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <ScrollView
+        android:layout_width="113dp"
+        android:layout_height="121dp"
+        android:background="#FF9999"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="270dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="receitas x despesas:"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-50,00"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00673AB7"
+        android:text="Saldo geral:"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="422dp"
+        android:layout_height="73dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barra"
+        tools:layout_editor_absoluteX="-6dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$:"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="406dp"
+        android:layout_height="26dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="377dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+rootProject.name='FinSheet'
+include ':app'
